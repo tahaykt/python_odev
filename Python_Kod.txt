@@ -1,0 +1,45 @@
+#1.SORU
+#Python'da Veri Tiplerini araştırınız, her bir veri tipi için kendi cümlelerinizle açıklamalar yazınız.
+
+#int(integer)Tam sayı veri tipi
+a=1
+b=7
+print(a+b)
+
+#string(metin ifadesi) veri tipi
+kelime="Çanakkale"
+print(kelime)
+
+#float(ondalıklı sayı) veri tipi
+x=2.5
+y=6
+print(x+y)
+
+c="Hitit"
+d=4
+print(c*d)
+
+#bool
+sayı1=95
+sayı2=45
+print(sayı1<sayı2)
+
+#2.Soru
+#Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz.
+
+#Kodlamaio sitesinde Kurslarım, Tüm Kurslar , Kariyer , Sık Sorulan Sorular => String veri tipindedir
+#50% TAMAMLANDI => İnt veri tipindedir
+#Kategori ve içerikler => List veri tipindedir
+
+#3.Soru
+#Kodlama.io sitesinde şart blokları kullanıldığını düşündüğünüz kısımları örneklendiriniz ve Python dilinde bu örnekleri koda dökünüz.
+
+#Önceki ders , Bitir ve devam et
+oncekiders="Java"
+suankiders="Python"
+
+if (oncekiders != suankiders):
+    print("Yanlış derstesiniz sonraki derse geçiniz")
+
+else:
+    print("Bitir ve devam et")
